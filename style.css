@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://afktravel.com/wp-content/uploads/2015/08/acacia-normal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
