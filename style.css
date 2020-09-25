@@ -5,15 +5,15 @@
 }
 
 body {
-    background-image: url(https://afktravel.com/wp-content/uploads/2015/08/acacia-normal.jpg);
-    background-repeat: no-repeat;
+    background-color: teal;
     background-size: cover;
 }
 
 .container {
+    background-image: url(https://afktravel.com/wp-content/uploads/2015/08/acacia-normal.jpg);
+    background-repeat: no-repeat;
     border-radius: 5px;
-    background-color: grey;
-    width: auto;
+    color: white;
     margin: 40px;
     padding: 20px;
     opacity: 0.9;
@@ -23,4 +23,23 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+.screen {
+    font-family: 'Indie Flower', cursive;
+    color: floralwhite;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: 5px solid white;
+    opacity: 0.7;
+}
+
+.content {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/255px-Flag_of_Ghana.svg.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Indie Flower', cursive;
 }
