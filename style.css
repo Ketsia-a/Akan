@@ -26,8 +26,9 @@ body {
 }
 
 .screen {
+    text-emphasis-color: white;
     font-family: 'Indie Flower', cursive;
-    color: floralwhite;
+    color: white;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
@@ -42,4 +43,48 @@ body {
     padding: 20px;
     margin: 20px;
     font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 1060px) {
+    #container {
+        width: 67%;
+    }
+    #screen {
+        width: 30%;
+        margin-left: 3%;
+    }
+}
+
+
+/* Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+    #screen {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (min-device-width:400px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:400px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+html {
+    font-size: 100%;
 }
