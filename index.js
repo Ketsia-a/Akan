@@ -68,11 +68,11 @@ function compute(form) {
     var val0 = step5 - (step6 * 7)
     form.answer.value = days[val0]
 
-    if (form.gender.value = "female") {
+
+    if (form.gender.value === "female") {
 
         form.akan.value = female[val0]
-    }
-    if (form.gender.value = "male") {
+    } else if (form.gender.value === "male") {
         form.akan.value = male[val0]
     }
 
