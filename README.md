@@ -22,6 +22,8 @@
  form.answer.value = days[val0]
 ```
 ### *BDD*
+* action : input information
+* reaction = output day you were born and akan name 
 
  ### Technologies use
  
